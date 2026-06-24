@@ -20,7 +20,7 @@ description:
 },
 
 {
-year: "2025",
+year: "2026",
 title: "Frontend Development Internship",
 place: "Andaz Kumar",
 description:
@@ -28,7 +28,7 @@ description:
 },
 
 {
-year: "2025",
+year: "2026",
 title: "Frontend Development Internship",
 place: "Trams",
 description:

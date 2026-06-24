@@ -92,7 +92,7 @@ export default function Navbar() {
 
         {/* Resume Button */}
         <a
-          href="/Tavishi_Kashyap_Resume.pdf"
+          href="/resume.pdf"
           download
           className="
           hidden
@@ -177,7 +177,7 @@ export default function Navbar() {
               ))}
 
               <a
-                href="/Tavishi_Kashyap_Resume.pdf"
+                href="/resume.pdf"
                 download
                 className="
                 px-5

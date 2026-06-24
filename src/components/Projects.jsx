@@ -6,7 +6,7 @@ import Image from "next/image";
 const projects = [
 {
 title: "Customer Churn Prediction",
-image: "/churn.png",
+image: "/churn.PNG",
 tech: "Python • Machine Learning • Scikit-Learn",
 description:
 "Built and deployed a machine learning application that predicts customer churn using Random Forest, Logistic Regression, and Naive Bayes models.",
@@ -15,7 +15,7 @@ demo: "https://churn-prediction-a4m4p4azzrx5vtusswwqfu.streamlit.app/",
 },
 {
 title: "Fake News Detection",
-image: "/fake.png",
+image: "/fake.PNG",
 tech: "NLP • Node.js • MongoDB",
 description:
 "Developed a full-stack NLP application capable of classifying news articles as real or fake using Logistic Regression and text preprocessing techniques.",
@@ -24,7 +24,7 @@ demo: "https://fake-news-detector-one-olive.vercel.app/",
 },
 {
 title: "Learning Dashboard",
-image: "/learning.png",
+image: "/learning.PNG",
 tech: "React • Supabase • Tailwind CSS",
 description:
 "Created a responsive student dashboard with real-time Supabase integration and a modern user interface.",
