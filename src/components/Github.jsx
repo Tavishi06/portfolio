@@ -56,7 +56,7 @@ export default function Github() {
             "
           >
             <img
-              src="https://github-readme-stats.vercel.app/api?username=Tavishi06&show_icons=true&theme=tokyonight"
+              src="https://github-readme-stats-sigma-five.vercel.app/api?username=Tavishi06&show_icons=true&theme=tokyonight"
               alt="GitHub Stats"
               className="w-full rounded-xl"
             />
@@ -76,7 +76,7 @@ export default function Github() {
             "
           >
             <img
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tavishi06&layout=compact&theme=tokyonight"
+              src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Tavishi06&layout=compact&theme=tokyonight"
               alt="Languages"
               className="w-full rounded-xl"
             />
@@ -84,7 +84,7 @@ export default function Github() {
 
         </div>
 
-        {/* GitHub Button */}
+        {/* GitHub Profile Button */}
         <div className="text-center mt-10">
           <a
             href="https://github.com/Tavishi06"
