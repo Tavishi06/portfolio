@@ -27,21 +27,20 @@
 //   );
 // }
 
-import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
+import { Oswald, Public_Sans } from "next/font/google";
 import "./globals.css";
 
-const body = Source_Sans_3({ subsets: ["latin"], variable: "--font-body" });
-const display = Source_Serif_4({ subsets: ["latin"], variable: "--font-display" });
+const display = Oswald({ subsets: ["latin"], variable: "--font-display" });
+const body = Public_Sans({ subsets: ["latin"], variable: "--font-body" });
 
 export const metadata = {
   title: "Tavishi Kashyap | Java & Spring Boot Developer",
-  description:
-    "Computer Science student building backend and full-stack software with Java, Spring Boot, REST APIs, databases, React and machine learning.",
+  description: "Computer Science student building backend and full-stack software with Java, Spring Boot, REST APIs, databases, React and machine learning.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${body.variable} ${display.variable}`}>
+    <html lang="en" className={`${display.variable} ${body.variable}`}>
       <body>{children}</body>
     </html>
   );
